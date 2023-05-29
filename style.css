@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  text-align: center;
+  margin-top: 50px;
+  padding: 150px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  background-image: linear-gradient(45deg, rgb(0, 255, 34), rgb(250, 250, 250));
+height: 100vh;
+}
+
+h1 {
+  margin-top: -150px;
+  font-size: 45px;
+  color: #000;
+}
+
+li {
+  padding: 0px;
+  color: #000;
+  font-weight: bolder;
+  position: relative;
+  top: 10px;
+  margin-left: 8px;
+  text-decoration: none;
+  list-style: none;
+  margin-right: 180px;
+  display: flex;
+  font-size: 20px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 19px;
+  background-color: rgb(0, 255, 64);
+  margin-top: 15px;
+}
+button:hover {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+  font-size: 19px;
+  background-color: rgb(0, 0, 0);
+  animation: 2.5s, ease;
+  margin-top: 15px;
+}
+
+p {
+  height: 30px;
+  color: #000;
+  margin-top: -20px;
+  padding: 5px;
+  font-weight: bolder;
+  background-color: #fff;
+  border-radius: 8px;
+  font-size: large;
+}
+
+.card {
+  width: 95%;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 25px;
+  border-radius: 25px;
+}
+.card-titulo {
+  font-size: large;
+}
+
+/* Estilos para dispositivos com tela pequena */
+@media screen and (max-width: 675px) {
+  .titulo {
+    width: 250px;
+    height: 50px;
+    position: relative;
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 35px;
+    color: #000;
+    text-decoration: none;
+  }
+  .card {
+    position: relative;
+    right: 250%;
+    width: 80vw;
+    top: 190px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px auto;
+    font-size: 20px;
+  }
+  li {
+    width: 8vw;
+    position: relative;
+    right: 5px;
+    font-size: small;
+    padding: 5px auto;
+  }
+
+  p {
+    width: 20rem auto !important;
+    padding-left: 50px;
+    height: 30px;
+    right: 15px;
+    font-size: large;
+  }
+
+  button {
+    bottom: 150px;
+    width: 100px;
+    height: 70px;
+  }
+
+  button:hover {
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    font: 'Raleway', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+    font-size: 19px;
+    background-color: rgb(0, 0, 0);
+    animation: 2.5s, ease;
+    margin-top: 15px;
+    border: none !important;
+  }
+}
+
+/* Estilos para dispositivos com tela grande */
+@media screen and (min-width: 768px) {
+  body {
+    
+    font-size: 18px;
+    overflow: hidden;
+  }
+}
