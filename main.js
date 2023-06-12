@@ -13,7 +13,7 @@ function inserirNomes() {
     "Jheniffer da Silva", "João Pedro",
     "Josias Rodrigues", "Keterlli Oliveira", "Luiz Silva", 
     "Mateus Rodrigues","Weldison Gonzaga", 
-    "Vagner Ribeiro","Jackson Soeiros"
+    "Vagner Ribeiro","Jackson Soeiros","Maria Rita","João Victor",
   ];
 
   var nomesSemana = [];
